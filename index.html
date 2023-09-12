@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Creation</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="background">
+        <!-- container -->
+        <div class="container">
+
+            <!-- first info -->
+            <div class="img_track_name">
+                <img data-testid="slackDisplayImage" src="./images/faatiha.jpg" alt="Faatiha">
+                <div class="right">
+                    <h3 data-testid="slackUserName">FAATIHA</h3>
+                    <p data-testid="myTrack">Track:Frontend</p>
+                </div>
+            </div>
+            <!-- first info -->
+
+            <!-- second info -->
+            <div class="other_details">
+                <h4>CURRENT DAY:</h4>
+                <span data-testid="currentDayOfTheWeek" id="currentDay"></span>
+                <h4>CURRENT UTC TIME:</h4>
+                <span data-testid="currentUTCTime" id="currentTime"></span>
+            </div>
+
+            <!-- link -->
+            <span data-testid="githubURL" class="github_link" id="myBtn">My Github Link 👆🏽</span>
+            <!-- link -->
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
