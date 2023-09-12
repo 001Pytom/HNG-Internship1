@@ -61,7 +61,6 @@ body {
 .github_link {
   padding: 15px 40px;
   border-radius: 30px 10px;
-  color: #fff;
   font-size: 16px;
   cursor: pointer;
   background: #cc53a8;
@@ -77,4 +76,9 @@ body {
     #b31a84 47.7%,
     #efba53 100.2%
   );
+}
+
+.github_link a {
+  text-decoration: none;
+  color: #fff;
 }
