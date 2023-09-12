@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.background {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(
+    45deg,
+    #070362 -0.1%,
+    #b31a84 47.7%,
+    #efba53 100.2%
+  );
+  padding: 10px;
+}
+
+.container {
+  width: 100%;
+  max-width: 340px;
+  margin: 180px auto;
+  padding: 35px 30px 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 5px 30px #363458;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.img_track_name {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.img_track_name img {
+  width: 90px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid #b31a84;
+}
+
+.other_details {
+  text-align: center;
+  font-size: 15px;
+}
+
+.github_link {
+  padding: 15px 40px;
+  border-radius: 30px 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  background: #cc53a8;
+  transition: all 0.8s ease-in-out;
+  box-shadow: 0 0 0 transparent;
+}
+
+.github_link:hover {
+  transform: rotate(360deg);
+  background: linear-gradient(
+    45deg,
+    #070362 -0.1%,
+    #b31a84 47.7%,
+    #efba53 100.2%
+  );
+}
